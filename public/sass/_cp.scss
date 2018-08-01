@@ -1,0 +1,28 @@
+.cp_table{
+  margin-top: 35px;
+  width: 100%;
+  font-size: 100%;
+}
+
+.cp_table tr{
+  height: 30px;
+}
+
+.cp_table td{
+  width: 33.3%;
+}
+
+.cp_history_date{
+  color: $color_text_2;
+  text-align: right;
+}
+
+.cp_history_type{
+  color: $color_text_1;
+  text-align: center;
+}
+
+.cp_history_winner{
+  color: $color_text_1;
+  text-align: left;
+}

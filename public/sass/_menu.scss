@@ -1,0 +1,64 @@
+.slideout-menu {
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+.main_menu{
+  position: absolute;
+  width: 256px;
+  height: 60px;
+}
+
+.main_menu p{
+  text-align: center;
+  line-height: 60px;
+  color: $color_text_1;
+}
+
+.main_menu ul{
+
+}
+
+.main_menu ul li{
+  list-style: none;
+  background: #fff;
+}
+
+.main_menu ul li a{
+  display: block;
+  width: 256px;
+  line-height: 40px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: $color_text_1;
+}
+
+.main_menu ul li a:hover{
+  background: -webkit-linear-gradient( left, #1ac4a9, #8e8cd8);
+  background: linear-gradient( 90deg, #1ac4a9, #8e8cd8);
+  color: #fff;
+}

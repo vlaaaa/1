@@ -1,0 +1,29 @@
+.main_nav{
+  margin: 35px auto 60px auto;
+  width: 340px;
+  height: 30px;
+}
+
+.main_nav ul{
+
+}
+
+.main_nav ul li{
+  float: left;
+  list-style: none;
+  background: #eaeef2;
+  line-height: 30px;
+  margin: 0 10px;
+  border-radius: 15px;
+}
+
+.main_nav ul li a{
+  text-decoration: none;
+  color: $color_text_1;
+  font-size: 100%;
+  padding: 0 20px;
+}
+
+.main_nav ul li a:hover{
+  opacity: .7;
+}

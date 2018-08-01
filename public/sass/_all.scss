@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+article,aside,figure,footer,header,main,nav,section{
+  display:block
+}
+
+h1{
+  text-align: center;
+  font-size: 120%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: $color_text_1;
+}
+
+h2{
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: $color_text_1;
+}
+
+h3{
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: $color_text_2;
+}
+
+output{
+  color: #5cb560;
+}
+
+.clear{
+  clear: both;
+}
+
+#main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: $bg;
+  background-image: -ms-radial-gradient(ellipse closest-side at center, #FFFFFF 0%, rgba(225,225,225, .4) 100%);
+  background-image: -moz-radial-gradient(ellipse closest-side at center, #FFFFFF 0%, rgba(225,225,225, .4) 100%);
+  background-image: -o-radial-gradient(ellipse closest-side at center, #FFFFFF 0%, rgba(225,225,225, .4) 100%);
+  background-image: -webkit-radial-gradient(ellipse closest-side at center, #FFFFFF 0%, rgba(225,225,225, .4) 100%);
+  background-image: radial-gradient(ellipse closest-side at center, #FFFFFF 0%, rgba(225,225,225, .4) 100%);
+}

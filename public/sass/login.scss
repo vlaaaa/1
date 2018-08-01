@@ -1,0 +1,32 @@
+// Импорт шрифтов
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300&subset=cyrillic');
+
+// Импорт переменных
+@import "_var";
+
+// Импорт общего
+@import "_all";
+
+// Иморт шапки
+@import "_header";
+
+// Импорт навигации
+@import "_nav";
+
+//Импорт контента
+@import "_content";
+
+//Импорт личного кабинета
+@import "_cp";
+
+//Импорт истории
+@import "_history";
+
+//Импорт пополнения счета
+@import "_add";
+
+//Импорт вывода средств
+@import "_out";
+
+//Импорт меню (мобильная версия)
+@import "_menu";

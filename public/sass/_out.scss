@@ -1,0 +1,96 @@
+.outputmoney{
+  margin: 50px auto 0 auto;
+  width: 255px;
+}
+
+.out_input_text1{
+  margin-bottom: 20px;
+  background: #e5e8eb;
+  width: 255px;
+  height: 50px;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 0 30px 0 rgba(71, 92, 112, 0.15);
+  font-size: 100%;
+  font-weight: 100;
+  color: $color_text_1;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+}
+
+.out_input_text{
+  background: #e5e8eb;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 18px 0 0 18px;
+  box-shadow: 0 0 30px 0 rgba(71, 92, 112, 0.15);
+  font-size: 100%;
+  font-weight: 100;
+  color: $color_text_1;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 15px;
+}
+
+.out_input_submit{
+  width: 55px;
+  height: 50px;
+  border: none;
+  background: #5cb560;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0 0 15px 0 #5cb560;
+  font-size: 100%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  transition: all .5s;
+}
+
+.out_input_submit:hover{
+  cursor: pointer;
+  transition: all .5s;
+  box-shadow: 0 0 30px 0 #5cb560;
+}
+
+.out_history{
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.out_table{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 100%;
+}
+
+.out_table tr{
+  height: 30px;
+}
+
+.out_table th{
+  width: 33.3%;
+}
+
+.out_table td{
+  width: 33.3%;
+}
+
+.out_history_date{
+  color: $color_text_2;
+  text-align: right;
+}
+
+th.out_history_date{
+  color: $color_text_1;
+  text-align: right;
+}
+
+.out_history_type{
+  color: $color_text_1;
+  text-align: center;
+}
+
+.out_history_winner{
+  color: $color_text_1;
+  text-align: left;
+}
